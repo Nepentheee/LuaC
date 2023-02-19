@@ -15,8 +15,15 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp">
+    <ClCompile Include="src\Student.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="src\TestStudent.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\ccode.lua" />
+    <None Include="src\student.lua" />
   </ItemGroup>
 </Project>

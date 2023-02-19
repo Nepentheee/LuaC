@@ -145,7 +145,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="src\Main.cpp" />
+    <ClCompile Include="src\Student.cpp" />
+    <ClCompile Include="src\TestStudent.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\ccode.lua" />
+    <None Include="src\student.lua" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
